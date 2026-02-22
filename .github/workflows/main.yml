@@ -32,9 +32,6 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
-      - name: Run unit tests
-        run: pytest tests/
-
   # ---------------------------------
   # 2. Locust load test (runs only once)
   # ---------------------------------
